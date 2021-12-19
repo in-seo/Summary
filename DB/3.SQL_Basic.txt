@@ -1,5 +1,12 @@
 SQL이 문자열 쓸때 '' 쓰는 이유 : 다른 프로그래밍 언어에 쓰일때  sql자체가 문자열로인용될수도있어서
 
+CREATE TABLE - PRIMARY KEY(고객아이디) - 기본키 지정
+UNIQUE(고객이름) - 대체키 지정 키워드
+FOREIGN KEY - 외래키 지정 키워드,  외래키가 어떤 테이블의 무슨 속성참조하는지 REFERENCES 키워드 다음 제시
+ex)FOREIGN KEY(소속부서) REFERENCES 부서(부서번호) ON DELETE CASCADE : 관련 투플을 삭제할때 같이 삭제 혹은 변경
+CHECK : 테이블에 정확하고 유효한 데이터를 유지하기 위해 특정 속성에 대한 제약조건을 지정
+ex)CHECK(재고량 >=0 AND 재고량 <= 10000)
+
 SELECT :질의 결과 추출되는 속성 리스트를 열거
 FROM  :질의에 어느 테이블이 사용되는지 열거
 WHERE :질의의 조건 작성
