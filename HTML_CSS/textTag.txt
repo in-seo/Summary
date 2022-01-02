@@ -1,0 +1,23 @@
+<hn> : n의숫자가 1에 가까울수록  글자크기가 커짐. 
+<p> : 단락 만들기, 단락 앞뒤에 줄바꿈 만들어줌.
+<br> : break의 줄임말로 닫는 태그 없는  공백.
+<hr>: 가로선 
+<blockquote> 인용문 넣기.
+
+<pre>태그 : 소스에 표시한 공백도 그대로 표시해줌.
+<strong> <b> : 글자 굵게 나타내기.
+<q> : 인용문,  인라인 태그로  인용내용앞뒤에 따옴표 붙여줌.
+<span> : 줄바꿈 없이 영역 묶기
+
+<ul>, <li>  순서가 필요하지 않은 목록을 만들 때 <ul>태그(unorder list) 사용. 그 안에 <li>로 각 항목 표시
+<ol>(ordered line) <ol type = "a" start = 3> 이렇게 속성 줄 수 있음.
+<dl>(description list)  설명붙이기
+
+<table> 표 만들기, <caption>으로 표에 제목 붙이기,  <tr>로 행 생성, <th>,<td>로 칸에 넣기.
+<td colspan="3"> 3개의 열 합침 --> 가로로 3칸 합병 
+
+<img src="" width="" height=""> 이미지삽입.
+<figure>
+	<img src="images/prod.jpg">
+	<figcaption>예멘 모카</figcaption>
+</figure>
