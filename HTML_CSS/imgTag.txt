@@ -1,4 +1,5 @@
 <a> : 텍스트와 함께 사용시 텍스트링크, 이미지와 함께 사용 시 이미지 링크.
+라벨 태그 사용시 글자를 클릭해도 체크박스, 라디오 등등 체크됨
 
 <form action="search.php" method="post">
 		<label>아이디<input type="text" title="검색"></label><br>
@@ -8,3 +9,25 @@
 
 <fieldset> 폼들을 하나의 영역으로 묶고 외곽선을 그려 주며, <legend> 태그로 묶은 그룹에 제목을 붙여 준다.
 <input>태그 : <input type="text" id="user-name" size=10>
+text, submit, image(==submit), time, color, checkbox, radio, number, search, hidden...
+
+autofocus required 사용자의 입력 커서를 바로 원하는 곳에 둘 수 있다.
+희미하게 어떤 형태로 입력해야 할지 힌트를 주고 싶다?  ==> placeholder
+readonly --> 이 필드의 내용은 직접 입력할 수 없다.
+입력을 가에하고 싶다면 required  를 붙이자.
+size 속성 : 한 줄짜리 텍스트 필드에서 몇 글자까지 보이게 할지
+maxlength, minlength : 몇자 입력 강제
+textarea cols="" rows""
+
+<select size="">
+      <optgroup label="   ">
+	<option value="">~~~</option> 
+      </optgroup>
+</select>
+사실  select 보다 
+<input type="text" list="choices">
+<datalist id="choices">
+	<option ~~~
+
+input 태그로 submit reset 등등 사용 가능하지만, button 태그로 해보자.
+		
