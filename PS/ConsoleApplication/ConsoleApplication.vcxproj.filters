@@ -15,31 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ConsoleApplication.cpp">
+    <ClCompile Include="Sort\insertSort.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="UDLR.cpp">
+    <ClCompile Include="Sort\quickSort.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="time.cpp">
+    <ClCompile Include="Sort\quick.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="knight.cpp">
+    <ClCompile Include="Sort\TopdownSort.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="game.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="dfs.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="bfs.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="drinkdfs.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="mazebfs.cpp">
+    <ClCompile Include="Sort\changeArray.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
