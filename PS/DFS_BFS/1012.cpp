@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-int m, n;  //가로 세로
+int c, n;  //가로 세로
 int dx[4] = { 0, 1, 0, -1 };//북 동 남 서
 int dy[4] = { -1, 0, 1, 0 };
 
@@ -16,7 +16,7 @@ void bfs(bool visited[50][50], int graph[50][50], int x, int y) {
 		{
 			int mx = x + dx[i];
 			int my = y + dy[i];
-			if (mx >= 0 && my >= 0 && mx < m && my < n) {
+			if (mx >= 0 && my >= 0 && mx < c && my < n) {
 				if (!visited[my][mx] && graph[my][mx] == 1) {
 					visited[my][mx] = true;
 					q.push({ mx, my });
@@ -31,7 +31,7 @@ int main() {
 	cin >> T;
 	for (int p = 0; p < T; p++)  //T번 실행
 	{
-		cin >> m >> n >> k;
+		cin >> c >> n >> k;
 		int result = 0;
 		int graph[50][50]={0};
 		bool visited[50][50] = { false };
@@ -43,7 +43,7 @@ int main() {
 		}
 		for (int i = 0; i < n; i++)
 		{
-			for (int j = 0; j < m; j++)
+			for (int j = 0; j < c; j++)
 			{
 				if (!visited[i][j] && graph[i][j]==1) {
 					bfs(visited, graph, j, i);
