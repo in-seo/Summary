@@ -1,0 +1,2 @@
+v.erase(unique(v.begin() , v.end() ) , v.end()); 정렬 후  중복원소 제거를 위함.
+lower_bound(v.begin(), v.end(), 0 )  - v.begin(); --> 0 이상인 첫 번째 원소 인덱스 반환.
